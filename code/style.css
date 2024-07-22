@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+}
+.header{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+}
+
+.left{
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.center{
+    margin-left: 200px;
+    display: flex;
+    flex: 2;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    gap: 23px;
+}
+
+
+.bars{
+    display: flex; 
+    align-items: center;  
+}
+
+.fa-bars{
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.youtube-icon{
+    color: #FF0000;
+    padding-left: 18px;
+    font-size: 31px;
+}
+
+.youtube-text{
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    padding-left: 4px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+sup{
+    font-size: xx-small;
+}
+
+
+.search-input{
+    font-size: 12px;
+    width: 480px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: -5px;
+}
+
+.search-button{
+    font-size: 12px;
+    border: 2px solid #ccc;
+    padding: 8px;
+    cursor: pointer;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 16px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.fa-search{
+    font-size: 15px;
+}
+
+.icon-micro{
+    font-size: 20px;
+    margin-left: 15px;
+    border: 2px solid #ccc;
+    padding: 7px;
+    border-radius: 55%;
+    cursor: pointer;
+}
+
+.icon-micro:hover{
+    background-color: rgb(193, 198, 202);
+}
+
+.search-button:hover{
+    background-color: rgb(193, 198, 202);
+}
+
+
+.video-icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.bell-icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+img{
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
