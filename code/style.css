@@ -21,10 +21,10 @@ body{
 }
 
 .center{
-    margin-left: 200px;
     display: flex;
     flex: 2;
     align-items: center;
+    justify-content: center;
 }
 
 .right{
@@ -98,7 +98,7 @@ sup{
     margin-left: 15px;
     border: 2px solid #ccc;
     padding: 7px;
-    border-radius: 55%;
+    border-radius: 50%;
     cursor: pointer;
 }
 
@@ -127,4 +127,83 @@ img{
     height: 35px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+/* LEFT COLUMN YOUTUBE */
+
+.column{
+    background-color: aqua;
+    margin-top: 22px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.shorts{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.subscriptions{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.channel{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.playlists{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.yourvideos{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.watchlater{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.liked{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
