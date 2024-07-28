@@ -1,22 +1,27 @@
 body{
     margin: 0px;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 .header{
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+nav{
     position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
-    background-color: white;
 }
 
 .left{
     display: flex;
     flex: 1;
-    margin-left: 15px;
+    margin-left: 20px;
     align-items: center;
 }
 
@@ -36,34 +41,16 @@ body{
     gap: 23px;
 }
 
-
 .bars{
     display: flex; 
-    align-items: center;  
-}
-
-.fa-bars{
+    align-items: center;
     cursor: pointer;
-    font-size: 22px;
 }
 
-.youtube-icon{
-    color: #FF0000;
-    padding-left: 18px;
-    font-size: 31px;
-}
-
-.youtube-text{
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    padding-left: 4px;
-    font-size: 25px;
+.youtube{
+    padding-left: 20px;
     font-weight: bold;
 }
-
-sup{
-    font-size: xx-small;
-}
-
 
 .search-input{
     font-size: 12px;
@@ -96,7 +83,6 @@ sup{
 .icon-micro{
     font-size: 20px;
     margin-left: 15px;
-    border: 2px solid #ccc;
     padding: 7px;
     border-radius: 50%;
     cursor: pointer;
@@ -111,20 +97,8 @@ sup{
 }
 
 
-.video-icon{
-    font-size: 24px;
-    cursor: pointer;
-}
-
-
-.bell-icon{
-    font-size: 24px;
-    cursor: pointer;
-}
-
-
 img{
-    height: 35px;
+    width: 28px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -138,72 +112,53 @@ img{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: flex-start;
     width: 200px;
+    overflow-y: auto;
 }
 
-ul{
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-}
 
-.home{
+.home, .shorts{
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.shorts{
+.subscriptions, .liked, .sports, .super{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid black;
+    padding-bottom: 13px;
+}
+
+.channel, .history, .playlists, .yourvideos, .watchlater{
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.subscriptions{
+.sub, .explore{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.arena, .blast, .israr, .saad{
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.channel{
+.settings, .history, .help, .music, .gaming, .trending{
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.history{
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.about, .terms{
+    font-size: 13px;
+    color: grey;
+    word-spacing: 5px;
+    font-weight: bold;
 }
 
-.playlists{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.yourvideos{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.watchlater{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.liked{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.sub{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
