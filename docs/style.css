@@ -83,13 +83,13 @@ nav{
 .icon-micro{
     font-size: 20px;
     margin-left: 15px;
-    padding: 7px;
+    padding: 6px 9px;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .icon-micro:hover{
-    background-color: rgb(193, 198, 202);
+    background-color: rgb(221, 219, 219);
 }
 
 .search-button:hover{
@@ -98,7 +98,8 @@ nav{
 
 
 img{
-    width: 28px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -194,7 +195,7 @@ img{
 
 .bar{
     display: flex;
-    gap: 24px;
+    gap: 22px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
@@ -204,8 +205,8 @@ img{
 
 .button{
     font-family: "Roboto", "Arial", sans-serif;
-    padding: 7px;
-    font-size: 16px;
+    padding: 7px 9px;
+    font-size: 14px;
     border-radius: 10px;
     border: 0.1em solid rgb(129, 123, 123)
 }
@@ -214,13 +215,13 @@ img{
     font-family: "Roboto", "Arial", sans-serif;
     background-color: black;
     color: white;
-    padding: 7px;
-    font-size: 16px;
+    padding: 8px;
+    font-size: 14px;
     border-radius: 10px;
     border: 0.1em solid rgb(129, 123, 123)
 }
 
 .button:hover{
-    background-color: rgb(180, 177, 177);
+    background-color: rgb(221, 219, 219);
 }
 
