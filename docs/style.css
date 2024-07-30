@@ -88,12 +88,13 @@ nav{
     cursor: pointer;
 }
 
+
 .icon-micro:hover{
     background-color: rgb(221, 219, 219);
 }
 
 .search-button:hover{
-    background-color: rgb(193, 198, 202);
+    background-color: rgb(221, 219, 219);
 }
 
 
